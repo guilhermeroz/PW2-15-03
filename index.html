@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos modi, debitis animi aliquid itaque omnis sapiente suscipit unde velit. Sunt sequi ipsum incidunt architecto molestias, quibusdam in nihil soluta fugit.</div>
-        </div>
 
-        <div class="row mt-5">
-            <div class="col-12 col-sm-8 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste corporis temporibus! Perspiciatis animi eaque nihil, laborum ipsum, laudantium voluptate modi minima in officiis, ut quis error. Ducimus, non alias?</div>
-            <div class="col-12 col-sm-8 col-md-6">Dolore magni iste provident exercitationem corrupti error iusto inventore possimus aspernatur. Nesciunt, iste! Possimus distinctio nulla, iusto asperiores cumque est, corrupti laboriosam quaerat accusamus fugiat eos animi. Nihil, cumque fugiat.</div>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-white bg-dark fixed-top">
+        <a class="navbar-brand">Blog</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white " href="#" tabindex="-1" aria-disabled="true">Notícias</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+
+
+
+    <div class="jumbotron jumbotron-fluid text-center bg-primary">
+        <h1 class="display-4 ">Title</h1>
+        <p class="lead">Subtitle</p>
+        <hr class="my-4">
+        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam quaerat, perferendis et quo commodi quae tenetur facere saepe cupiditate repellendus tempora ab possimus doloribus rerum ea, mollitia inventore sint!</p>
     </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
